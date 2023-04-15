@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li, a, button{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navegation_bar{
+ list-style: none;
+}
+
+.navegation_bar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navegation_bar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navegation_bar li a:hover{
+    color: rgba(0,136,169,1 )
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1 );
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8 );
+}
