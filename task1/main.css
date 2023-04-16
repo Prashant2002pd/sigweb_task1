@@ -30,13 +30,16 @@ header{
     transition: all 0.3s ease 0s;
 }
 
-.navegation_bar li a:hover{
-    color: rgba(0,136,169,1 )
+.navegation_bar a:hover,
+.navegation_bar a.active{
+    color: #0ef
 }
+
+
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1 );
+    background-color: #0ef;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -44,5 +47,80 @@ button{
 }
 
 button:hover{
-    background-color: rgba(0,136,169,0.8 );
+    background-color: #0ef;
+}
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 2rem;
+    color: white;
+
+}
+
+section span{
+    color: #0ef;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-contant h3 {
+   font-size: 5rem;
+   font-weight: 700;
+}
+
+.home-contant h1{
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-contant p{
+    font-size: 1.6rem;
+}
+.home-img img{
+width: 35vw
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid #0ef;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #0ef;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.5s ease;
+}
+
+.social-media a:hover{
+    background: #0ef ;
+    color: #0ef;
+    box-shadow: 0 0 1rem #0ef;
+    border-radius: 10%;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #0ef;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #0ef;
+    font-size: 1.6rem;
+    color: #24252a;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    box-shadow: none;
 }
